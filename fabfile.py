@@ -97,7 +97,7 @@ def _load_scraper(scraper_name):
         }
 
 
-@blab('Pushing new scraper...', 'Done.')
+@blab('Pushing new scraper...')
 def _post_scraper(scraper_detail, code):
 
     # Extract the various save parameters.

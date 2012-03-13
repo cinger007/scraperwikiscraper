@@ -1,0 +1,16 @@
+The problem
+---------------
+
+You want to use scraperwiki but can't part with your local development environment.
+
+A solution
+------------
+
+Install faker wiki and use this project as a template. The scrape.py file has a block at the top that tries to import scraperwiki's toolset and falls back to fakerwiki if needed (i.e., local dev). Later when you're ready to transfer your code to scraperwiki, instead of copying and pasting, simply do this:
+
+fab push:scrapername,scraper.py
+
+To do:
+- pull
+- fork
+- run scraper
