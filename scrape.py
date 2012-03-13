@@ -1,11 +1,11 @@
 import scraperwiki
 
 try:
-	swutils = scraperwiki.utils
+    swutils = scraperwiki.utils
 except AttributeError:
-	import gasp_helper
+    import gasp_helper
 else:
-	swutils.swimport("gasp_helper")
+    swutils.swimport("gasp_helper")
 
 API_KEY = '' # sunlight api key here
 BIOGUIDE_ID = '' # bioguide id here
